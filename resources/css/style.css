@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+header {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    z-index: 1;
+}
+
+.logo {
+    color: MediumAquamarine;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.menu {
+    
+    padding-right: 40px;
+}
+
+nav.span {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 10px;
+}
